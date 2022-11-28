@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Dit is een website waarin ik mijn werkervaring deel en je contact kunt zoeken.">
+    <meta name="keywords" content="Apeldoorn, natuur, inhuren, CV, contact, projecten">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+    <header>
+      <div class="navigatie">
+        <a href="index.html">Home</a>
+        <a href="mijncv.html">Mijn CV</a>
+        <a class="actief" href="contact.html">Contact</a>
+      </div>
+    </header>
+    <main>
+      <form id="contactform" action="https://formspree.io/f/mvoynjag" method="post">
+      <input type="text" name="voornaam" placeholder="Uw voornaam">
+      <br>
+      <br>
+      <input type="text" name="achternaam" placeholder="Uw achternaam">
+      <br>
+      <br>
+      <input type="email" name="_replyto" placeholder="Uw mailadres">
+      <br>
+      <br>
+      <input type="hidden" name="_subject" value="Nieuw verzoek tot contact">
+      <textarea name="bericht" id="berichtveld" placeholder="Uw bericht"></textarea>
+      <br>
+      <br>
+      <input type="submit" id="knop" value="Verzenden">
+      </form>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>

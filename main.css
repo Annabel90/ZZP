@@ -1,0 +1,136 @@
+html {
+  background-color: #EBF6F7;
+}
+
+
+.navigatie {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+  font-family: Helvetica, Arial;
+}
+
+.navigatie a {
+  float: left;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  width: 20%;
+  text-align: center;
+}
+
+.navigatie a:hover {
+  background-color: #000000;
+}
+
+.navigatie a.actief {
+  background-color: #51b75d;
+}
+
+main {
+  position: absolute;
+  top: 65px;
+  left: 1%;
+  right: 1%;
+  font-family: Papyrus, Arial;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #555;
+  font-size: 12px;
+  font-family: Papyrus, Arial;
+  font-style: italic;
+  text-indent: 1%;
+  height: 100px;
+  width: 100%;
+  color: #FFFFFF;
+}
+
+#foto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 190px;
+  width: 190px;
+  padding: 10px;
+  border-style: none;
+  border-width: thin;
+  border-radius: 18px;
+  background-color: #ACE1AF;
+
+}
+
+.tekst {
+  position: relative;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  background-color: #ACE1AF;
+  padding: 10px;
+  border-style: none;
+  border-width: thin;
+  border-radius: 18px;
+}
+
+#tabelkop {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  padding: 8px;
+
+}
+
+.kleur {
+  background-color: #ACE1AF;
+}
+
+form {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  padding: 10px;
+  background-color: #ACE1AF;
+  border-style: none;
+  border-width: thin;
+  border-radius: 18px;
+}
+
+input {
+  width: 250px;
+  font-family: Papyrus, Arial;
+}
+
+#berichtveld {
+  width: 250px;
+  height: 200px;
+  font-family: Papyrus, Arial;
+}
+
+#knop {
+  width: 250px;
+  font-family: Papyrus, Arial;
+  font-weight: bold;
+  background-color: #FCFBFC;
+}
+
+#knop:active {
+  background-color: #51b75d;
+  color: white;
+}
